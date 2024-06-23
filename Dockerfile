@@ -13,11 +13,8 @@ RUN pip install --no-cache-dir mkdocs
 # Run mkdocs build to generate the static site
 RUN mkdocs build
 
-# Install a simple HTTP server
-RUN pip install --no-cache-dir httpserver
-
 # Expose the port mkdocs runs on
 EXPOSE 8000
 
-# Start the HTTP server to serve the built site
-CMD ["httpserver", "site"]
+# Start mkdocs serve to serve the built site
+CMD ["mkdocs", "serve", "--dev-addr=0.0.0.0:8000"]
