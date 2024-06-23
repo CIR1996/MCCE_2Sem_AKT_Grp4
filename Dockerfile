@@ -17,4 +17,4 @@ RUN mkdocs build
 EXPOSE 8000
 
 # Start mkdocs serve to serve the built site
-CMD ["mkdocs", "serve", "--dev-addr=0.0.0.0:8000"]
+CMD ["mkdocs", "serve", "--dev-addr=http//localhost:8000"]
