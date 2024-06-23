@@ -2,10 +2,9 @@
 FHB_MCCE_2Sem_AKT
 
 
-Zur Verwendung von MkDocs mit unserer Dokumentation werden folgende Python3 Pakete benötigt:
-mkdocs
-mkdocs-material
+Commands how to run: 
 
-Commands: 
-sudo apt install python3 python3-pip mkdocs \
-pip3 install mkdocs mkdocs-material
+docker pull raul1996/mkdocs-app:latest
+docker run -p 8000:8000 raul1996/mkdocs-app:latest
+
+Browser --> http://localhost:8000 
