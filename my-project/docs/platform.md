@@ -1,0 +1,3 @@
+# Plattformen
+
+Plattformen sind umfassende Infrastrukturen, die eine Vielzahl von Tools und Diensten integrieren, um die Entwicklung, Bereitstellung und Verwaltung von Softwareanwendungen zu erleichtern. Sie bieten eine standardisierte Umgebung, die es Entwicklern ermöglicht, effizienter zu arbeiten und sich auf die eigentliche Programmierung zu konzentrieren, während sich die Plattform um die zugrunde liegende Infrastruktur kümmert.

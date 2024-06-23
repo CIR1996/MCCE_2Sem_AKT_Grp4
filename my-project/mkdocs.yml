@@ -1,0 +1,19 @@
+site_name: FHB-AKT - Platforms
+theme:
+  name: readthedocs
+  #name: 'material'
+  # Die folgende Zeile stellt sicher, dass der gesamte Menübaum angezeigt wird
+  navigation_depth: 6
+    #features:
+   # - navigation.instant
+nav:
+  - Home: 'index.md'
+  - Plattformen:
+      - 'Übersicht': 'platform.md'
+      - 'Wofür': 'platforms/whyplatforms.md'
+      - 'Mehrwert': 'platforms/mehrwert.md'
+      - 'Tools und Technologien':
+          - 'Allgemein': 'tools.md'
+          - 'Tools': 'tools/tools.md'
+          - 'Technologien': 'tools/technologie.md'
+      - 'Linksammlung' : sources.md
